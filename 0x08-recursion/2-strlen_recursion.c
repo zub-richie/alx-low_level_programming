@@ -4,7 +4,7 @@
 /**
  * _strlen_recursion - This function count the number of string
  *
- * @s : The string that'll be counted 
+ * @s : The string that'll be counted
  *
  * Return: Print the total number of the string.
  */
