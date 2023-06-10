@@ -2,14 +2,15 @@
 #include "main.h"
 
 /**
- * int main - This function count the number of string
+ * main - Outputs the name of the program
  *
- * int argc - The string that'll be counted
+ * @argc - The number of command line arguments
+ * @argv - An array containing the program command line arguments
  *
  * Return: Always return 0
  */
 
-int main(int argc, char **argv)
+int main(int argc __attribute__((unused)), char **argv)
 {
 	while (argc--)
 		printf("%s\n", *argv++);
