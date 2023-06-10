@@ -3,8 +3,8 @@
 
 /**
  * main - Outputs the name of the program
- * argc - The number of command line arguments
- * argv - An array containing the program command line arguments
+ * argc: The number of command line arguments
+ * argv: An array containing the program command line arguments
  * Return: Always return 0
  */
 
