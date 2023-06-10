@@ -2,15 +2,15 @@
 #include "main.h"
 
 /**
- *  main - Outputs the name of the program
- *   @argc - The number of command line arguments
- *    @argv - An array containing the program command line arguments
- *     Return: Always return 0
+ * main - Outputs the name of the program
+ * argc - The number of command line arguments
+ * argv - An array containing the program command line arguments
+ * Return: Always return 0
  */
 
 int main(int argc, char **argv)
 {
-	while(argc--)
+	while (argc--)
 		printf("%s\n", *argv++);
 	return (0);
 }
