@@ -1,7 +1,12 @@
 #include <stdio.h>
 
+/**
+ * main - this is the function
+ *
+ * Return: 0 if successful.
+ */
 
-int main()
+int main(void)
 {
 	const char *m = "\"Programming is like building a multilingual puzzle";
 
